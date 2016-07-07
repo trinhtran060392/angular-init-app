@@ -1,0 +1,16 @@
+{
+  "name": "create_app_step_by_step",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "author": "trinhtran060392",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "bower": "~1.7.9",
+    "lite-server": "~2.2.2"
+  }
+}

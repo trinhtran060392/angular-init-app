@@ -1,0 +1,23 @@
+{
+  "name": "create_app_step_by_step",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "trinhtran060392"
+  ],
+  "license": "BSD-2-Clause",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/plugin",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.6"
+  }
+}
