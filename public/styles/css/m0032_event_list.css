@@ -1,0 +1,28 @@
+.event-container {
+  padding: 20px;
+}
+.item {
+  border-left: 4px solid teal;
+  height: 100px;
+  box-shadow: 2px 1px 5px #888888;
+  border-radius: 2px;
+}
+.header-item {
+  border-bottom: 1px solid #888888;
+  padding-top: 10px;
+}
+.height-40 {
+  height: 40%;
+}
+.padding-left-15 {
+  padding-left: 15px;
+}
+.padding-right-15 {
+  padding-right: 15px;
+}
+.padding-left-30 {
+  padding-left: 30px !important;
+}
+.padding-top-10 {
+  padding-top: 10px;
+}
