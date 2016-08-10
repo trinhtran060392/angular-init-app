@@ -1,0 +1,29 @@
+.header-box {
+
+  position: relative;
+  border-bottom: 1px solid #d8d8d8;
+  .header-text {
+    position: relative;
+    font-size: 1.6rem;
+    line-height: 1.5em;
+    bottom: -1px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-bottom: 0px;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0px;
+      height: 1px;
+      background-color: blue;
+      width: 100%;
+    }
+  }
+  .button-action {
+    float: right;
+    .btn {
+      padding: 4px 20px;
+      margin-left: 5px;
+    }
+  }
+}

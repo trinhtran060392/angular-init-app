@@ -1,3 +1,4 @@
 node_modules/*
 public/plugin/*
 .sass-cache/
+**/css/*

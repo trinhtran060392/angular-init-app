@@ -1,0 +1,19 @@
+.hint {
+  width: 200px;
+  height: 60px;
+  border: 1px solid blue;
+  background-color: white;
+  color: red;
+  position: relative;
+  padding: 20px;
+  &::after {
+
+    content: "";
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 7px solid black;
+    position: absolute;
+    left: -7px;
+    top: 24px;
+  }
+} 
