@@ -29,5 +29,13 @@ function config($stateProvider) {
         templateUrl: 'app/auth/views/m0032_list_event.html'
       }
     }
+  })
+  .state('app.study', {
+    url: '/study',
+    views: {
+      'content@app': {
+        templateUrl: 'app/dashboard/views/practise.html'
+      }
+    }
   });
 }
