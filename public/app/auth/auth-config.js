@@ -21,5 +21,12 @@ function config($stateProvider) {
         templateUrl: 'app/auth/views/m0021_setting_pass.html'
       }
     }
+  }).state('data-table', {
+    url: '/data-table',
+    views: {
+      'root': {
+        templateUrl: 'app/auth/views/table.html'
+      }
+    }
   });
 }
